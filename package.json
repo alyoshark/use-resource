@@ -1,0 +1,41 @@
+{
+  "name": "use-resource",
+  "version": "0.0.1",
+  "description": "useResource - React hook to integrate with ResourceX",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installpeers": "npx npm-install-peers",
+    "build": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xch91/use-resource.git"
+  },
+  "keywords": [
+    "rxjs",
+    "observable",
+    "reactive",
+    "reactivex",
+    "frp",
+    "resource"
+  ],
+  "author": "Xie Chenhong <chenhong.xie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xch91/use-resource/issues"
+  },
+  "homepage": "https://github.com/xch91/use-resource",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "typescript": "^3.4.1"
+  }
+}
