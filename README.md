@@ -1,9 +1,9 @@
-# use-resource
+# resource-react-hook
 
 This project provides a hook for React component to use a [resource](https://www.npmjs.com/package/resourcex).
 
 ```bash
-npm install --save use-resource
+npm install --save resource-react-hook
 ```
 
 ## Example
@@ -44,7 +44,7 @@ export const Profile = Resource(
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-import useResource from 'use-resource';
+import useResource from 'resource-react-hook';
 import { Profile } from '../resources';
 
 const App = () => {

@@ -1,5 +1,5 @@
 {
-  "name": "use-resource",
+  "name": "resource-react-hook",
   "version": "0.0.1",
   "description": "useResource - React hook to integrate with ResourceX",
   "main": "lib/index.js",
